@@ -30,6 +30,15 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 
 	_Note youtube-dl is usually outdated in debian repos, I suggest getting it from  [youtube-dl github](https://github.com/ytdl-org/youtube-dl)_
 
++ #### Fedora based
+
+	  sudo dnf install jq mpv youtube-dl fzf
+
+	> For thumbnails
+	  
+	  sudo dnf install libXext-devel libX11-devel
+	  pip install ueberzug
+
 + #### MacOS
 
 	  brew install jq mpv youtube-dl fzf
